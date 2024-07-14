@@ -27,8 +27,25 @@ module.exports = {
         "custom-gradient":
           "linear-gradient(97.5deg, #3BAEEB -7.64%, #D5C664 103.16%)",
       },
+      boxShadow: {
+        "custom-shadow": "0px 5.7px 19px 0px #3BAEEB1F", // Add your custom box shadow here
+      },
     },
   },
 
-  plugins: [],
+  plugins: [
+    plugin(function ({ addUtilities }) {
+      const newUtilities = {
+        ".text-gradient": {
+          background:
+            "linear-gradient(97.5deg, #3BAEEB -7.64%, #D5C664 103.16%)",
+          "background-clip": "text",
+          "-webkit-background-clip": "text",
+          color: "transparent",
+        },
+      };
+
+      addUtilities(newUtilities, ["responsive", "hover"]);
+    }),
+  ],
 };
