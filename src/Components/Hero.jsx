@@ -1,3 +1,4 @@
+
 import React from "react";
 import { Nav } from "./Nav";
 import Image from "next/image";
@@ -5,9 +6,10 @@ import Image from "next/image";
 export const Hero = () => {
   return (
     <div className="">
-      <div className="sm:container lg:container   xs:px-4 sm:px-8 lg:px-4 xl:px-0  relative  sm:mx-auto">
+      <div className="sm:container lg:container   xs:px-4 sm:px-8 lg:px-6 xl:px-0  relative  sm:mx-auto">
         <Nav />
         <div
+          style={{ backgroundImage: 'url("/bg.jpeg")' }}
           className="xs:py-14 2xl:py-24   flex xs:gap-6  sm:justify-between sm:gap-0 xs:flex-col sm:flex-row
 "
         >
@@ -46,7 +48,7 @@ export const Hero = () => {
               </div>
             </div>
           </div>
-          <div className="shadow-custom-shadow rounded-[10px] sm:h-[50vh] md:h-[40vh] xl:h-auto">
+          <div className=" rounded-[10px] sm:h-[50vh] md:h-[40vh] xl:h-auto">
             <Image
               src={"/hero.svg"}
               width={588}

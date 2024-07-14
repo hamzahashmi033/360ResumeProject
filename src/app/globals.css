@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+    .textboder {
+        @apply border-b-4;
+        border-style: linear-gradient(to right, #3b82f6, #10b981) ;
+        border-radius: 28px;
+    }
+}
+
+.gradient-border {
+    border: 2px solid transparent;
+    border-image: linear-gradient(to right, #3b82f6, #10b981) 1;
+    border-radius: 8px;
+    /* Add a little radius on the border */
+}
+
+.gradient-border::before {
+    content: '';
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    right: -4px;
+    bottom: -4px;
+    border-radius: inherit;
+    pointer-events: none;
+    z-index: -1;
+}
