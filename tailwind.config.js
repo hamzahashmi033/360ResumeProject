@@ -1,3 +1,4 @@
+const { Poppins, Red_Hat_Display } = require("next/font/google");
 const plugin = require("tailwindcss/plugin");
 
 module.exports = {
@@ -9,13 +10,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        Red: "#C92127",
-        Black: "#0B0A0A",
-        White: "#FAFAFA",
+        Blue: "#3BAEEB",
       },
       fontFamily: {
-        Neuropal: ["var(--neuropal)"],
-        ClashDisplay: ["var(--clashdisplay)"],
+        Poppins: "Poppins",
+        Red_Hat_Display: "Red_Hat_Display",
       },
       screens: {
         xs: "0px", // Custom xs screen starting from 0px
@@ -31,17 +30,5 @@ module.exports = {
     },
   },
 
-  plugins: [
-    plugin(function ({ addUtilities }) {
-      const newUtilities = {
-        ".text-gradient": {
-          "background-clip": "text",
-          "-webkit-background-clip": "text",
-          color: "transparent",
-        },
-      };
-
-      addUtilities(newUtilities, ["responsive", "hover"]);
-    }),
-  ],
+  plugins: [],
 };
