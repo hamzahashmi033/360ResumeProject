@@ -5,6 +5,7 @@ import Faqs from "@/Components/Faqs";
 import Footer from "@/Components/Footer";
 import Work from "@/Components/Work";
 import Score from "@/Components/Score";
+import "@/app/globals.css"
 
 export default function Home() {
   return (
