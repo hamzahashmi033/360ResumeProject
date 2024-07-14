@@ -17,7 +17,7 @@ export const Hero = () => {
                 Stand Out with a<br /> Professional{" "}
                 <span className="text-gradient font-[700]">Resume</span>
               </h1>
-              <p className="font-[300] font-Poppins xs:mt-6 2xl:mt-10 sm:text-[16px] xs:text-[14px]">
+              <p className="font-[300] font-Poppins xs:mt-6 2xl:mt-10 sm:text-[16px] xl:text-[18px] xs:text-[14px]">
                 Upload your resume and let our advanced tools enhance it for
                 you.
                 <br />
