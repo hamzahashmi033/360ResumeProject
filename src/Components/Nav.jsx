@@ -2,7 +2,7 @@ import React from "react";
 
 export const Nav = () => {
   return (
-    <div className="flex items-center justify-between pt-4">
+    <div className="flex md:px-4 items-center justify-between pt-2">
       <div>
         <p className="text-Blue leading-[36px] font-[700] font-Poppins xs:text-[18px] sm:text-[24px]">
           Resume Checker

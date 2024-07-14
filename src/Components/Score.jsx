@@ -27,7 +27,7 @@ const Score = () => {
               Drag and drop your resume here or select a file
               <br /> (PDF & DOCX only). Max file size: 2MB.
             </p>
-            <button className="sm:px-[40px] sm:w-[30vw] lg:w-[15vw] xs:w-[45vw] font-Red_Hat_Display font-[700]  sm:py-[14px] xs:px-[20px] xs:py-[6px] lg:text-[16px] xs:text-[12px] text-white  bg-custom-gradient">
+            <button className="sm:px-[40px] rounded-lg sm:w-[30vw] lg:w-[15vw] xs:w-[45vw] font-Red_Hat_Display font-[700]  sm:py-[14px] xs:px-[20px] xs:py-[6px] lg:text-[16px] xs:text-[12px] text-white  bg-custom-gradient">
               Upload a Resume
             </button>
             <div className="flex gap-2 items-centers">

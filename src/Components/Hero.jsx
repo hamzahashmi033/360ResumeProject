@@ -10,12 +10,12 @@ export const Hero = () => {
         <Nav />
         <div
           style={{ backgroundImage: 'url("/bg.jpeg")' }}
-          className="xs:py-14 2xl:py-24   flex xs:gap-6  sm:justify-between sm:gap-0 xs:flex-col sm:flex-row
+          className="xs:py-14 2xl:py-24  md:px-4 flex xs:gap-6  sm:justify-between sm:gap-0 xs:flex-col sm:flex-row
 "
         >
           <div>
             <div>
-              <h1 className="font-Red_Hat_Display font-[600] xs:text-[34px] sm:text-[34px] lg:text-[50px] 2xl:text-[60px]  text-black">
+              <h1 className="font-Red_Hat_Display font-[600] leading-tight xs:text-[34px] sm:text-[34px] lg:text-[50px] 2xl:text-[60px]  text-black">
                 Stand Out with a<br /> Professional{" "}
                 <span className="text-gradient font-[700]">Resume</span>
               </h1>
@@ -32,7 +32,7 @@ export const Hero = () => {
                 Drag and drop your resume here or select a file
                 <br /> (PDF & DOCX only). Max file size: 2MB.
               </p>
-              <button className="sm:px-[40px] sm:w-[30vw] lg:w-[15vw] xs:w-[45vw] font-Red_Hat_Display font-[700]  sm:py-[14px] xs:px-[20px] xs:py-[6px] lg:text-[16px] xs:text-[12px] text-white  bg-custom-gradient">
+              <button className="sm:px-[40px] rounded-lg sm:w-[30vw] lg:w-[15vw] xs:w-[45vw] font-Red_Hat_Display font-[700]  sm:py-[14px] xs:px-[20px] xs:py-[6px] lg:text-[16px] xs:text-[12px] text-white  bg-custom-gradient">
                 Upload a Resume
               </button>
               <div className="flex gap-2 items-centers">
