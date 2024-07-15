@@ -47,7 +47,7 @@ const FAQItem = ({ question, answer, isOpen, onToggle }) => {
     return (
         <div
             onClick={onToggle}
-            className={`relative bg-white p-4 mb-4 cursor-pointer rounded-lg border transition-all duration-500 ease-in-out ${isOpen ? 'gradient-border' : 'border-gray-300'
+            className={`relative bg-white p-4 mb-4 cursor-pointer rounded-lg border transition-all duration-1000 ease-in-out ${isOpen ? 'gradient-border' : 'border-gray-300'
                 }`}
             style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }}
         >

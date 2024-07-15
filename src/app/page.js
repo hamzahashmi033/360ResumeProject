@@ -13,7 +13,7 @@ export default function Home() {
       <Hero />
       <Work />
       <Score />
-      <div className="py-12 pb-12 relative overflow-hidden">
+      <div className="py-28 pb-20 relative overflow-hidden">
         {/* Background with gradient and blur effect */}
         <div
           className="absolute inset-0"

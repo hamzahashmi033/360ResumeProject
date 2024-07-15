@@ -5,12 +5,19 @@ const Work = () => {
   return (
     <div className="mt-24">
       <div className="sm:container lg:container   xs:px-4 sm:px-8 lg:px-4 xl:px-0  py-8 relative  sm:mx-auto">
-        <div className="sm:mx-28   flex flex-col items-center ">
+        <div className="sm:mx-28  flex flex-col items-center ">
           <div>
-            <h2 className="font-Red_Hat_Display text-[30px]">How It Works</h2>
-            <Image src={"/line.png"} width={150} height={100} />
+            <h2
+              style={{
+                borderBottom: "2px solid",
+                borderBottomColor: "transparent",
+                borderImage: "linear-gradient(to right, #3b82f6, #10b981)",
+                borderImageSlice: "1",
+              }}
+              className="font-Red_Hat_Display leading-loose text-[30px]">How It Works</h2>
+            {/* <Image src={"/line.png"} width={150} height={100} /> */}
           </div>
-          <div className="flex gap-16 sm:flex-row  items-center mt-12">
+          <div className="flex gap-16 py-12 sm:flex-row  items-center mt-20">
             <div>
               <Image src={"/work1.svg"} width={300} height={200} />
             </div>
@@ -30,13 +37,20 @@ const Work = () => {
               </p>
             </div>
           </div>
-          <div className="flex gap-16  flex-row-reverse items-center mt-12">
+          <div className="flex gap-16 py-12 flex-row-reverse items-center mt-20">
             <div>
               <Image
                 src={"/work2.svg"}
                 width={300}
                 height={200}
-                className="xs:w-[700px] sm:w-[300px]"
+                className="xs:w-[700px] sm:w-[300px] md:w-[400px]"
+              />
+            </div>
+            <div>
+              <img
+                src="/arrow.png"
+                width={100}
+              // className="xs:w-[700px] sm:w-[300px]"
               />
             </div>
             <div>
@@ -57,13 +71,13 @@ const Work = () => {
               </p>
             </div>
           </div>
-          <div className="flex gap-16  items-center mt-12">
+          <div className="flex gap-16  py-12 items-center mt-20">
             <div>
               <Image
                 src={"/work3.svg"}
                 width={300}
                 height={200}
-                className="xs:w-[1500px] sm:w-[1000px] xl:w-[300px]"
+                className="xs:w-[1500px] sm:w-[1000px] md:w-[400px] xl:w-[300px]"
               />
             </div>
             <div>

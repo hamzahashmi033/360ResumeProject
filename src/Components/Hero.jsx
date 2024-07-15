@@ -50,10 +50,10 @@ export const Hero = () => {
           </div>
           <div className=" rounded-[10px] sm:h-[50vh] md:h-[40vh] xl:h-auto">
             <Image
-              src={"/hero.svg"}
+              src={"/resumepic.PNG"}
               width={588}
               height={200}
-              className="2xl:w-[700px] sm:w-[300px] md:w-[450px]  xl:w-[588px] h-auto"
+              className="2xl:w-[700px] sm:w-[300px] md:w-[450px]  rounded-lg xl:w-[588px] h-auto"
             />
           </div>
         </div>
