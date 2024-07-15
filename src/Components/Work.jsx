@@ -25,7 +25,7 @@ const Work = () => {
               <p className="font-Poppins font-[400] text-[#252525] mb-2 ">
                 Step 01
               </p>
-              <h3 className="font-Poppins font-[500] sm:text-[32px] xs:text-[18px] text-Blue mb-4">
+              <h3 className="font-Red_Hat_Display font-[500] sm:text-[32px] xs:text-[18px] text-Blue mb-4">
                 Upload Your Resume
               </h3>
               <p className="font-Poppins font-[300] sm:text-[20px] xs:text-[14px] text-[#000000]">
@@ -57,7 +57,7 @@ const Work = () => {
               <p className="font-Poppins font-[400] text-[#252525] mb-2 ">
                 Step 02
               </p>
-              <h3 className="font-Poppins font-[500] sm:text-[32px] xs:text-[18px] text-Blue mb-4">
+              <h3 className="font-Red_Hat_Display font-[500] sm:text-[32px] xs:text-[18px] text-Blue mb-4">
                 Automatic Analysis
               </h3>
               <p className="font-Poppins font-[300] sm:text-[20px] xs:text-[14px] text-[#000000]">
@@ -84,7 +84,7 @@ const Work = () => {
               <p className="font-Poppins font-[400] text-[#252525] mb-2 ">
                 Step 03
               </p>
-              <h3 className="font-Poppins font-[500] sm:text-[32px] xs:text-[18px] text-Blue mb-4">
+              <h3 className="font-Red_Hat_Display font-[500] sm:text-[32px] xs:text-[18px] text-Blue mb-4">
                 Detailed Feedback
               </h3>
               <p className="font-Poppins font-[300] sm:text-[20px] xs:text-[14px] text-[#000000]">

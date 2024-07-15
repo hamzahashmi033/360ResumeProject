@@ -4,7 +4,7 @@ export default function Footer(params) {
     return (
         <footer className="bg-white py-8 flex flex-col items-center md:flex-row md:justify-between md:px-16">
             <div className="text-center md:text-left mb-6 md:mb-0">
-                <h2 className="text-blue-600 text-2xl font-bold">Resume Checker</h2>
+                <h2 className="text-[#3BAEEB] text-2xl font-bold">Resume Checker</h2>
                 <p className="text-gray-800 mt-4 max-w-xs mx-auto md:mx-0">
                     Upload your resume and let our advanced tools enhance it for you. Tailor your resume to fit your dream job effortlessly.
                 </p>

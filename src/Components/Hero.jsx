@@ -17,7 +17,7 @@ export const Hero = () => {
             <div>
               <h1 className="font-Red_Hat_Display font-[600] leading-tight xs:text-[34px] sm:text-[34px] lg:text-[50px] 2xl:text-[60px]  text-black">
                 Stand Out with a<br /> Professional{" "}
-                <span className="text-gradient font-[700]">Resume</span>
+                <span className="text-gradient font-Red_Hat_Display font-[700]">Resume</span>
               </h1>
               <p className="font-[300] font-Poppins xs:mt-6 2xl:mt-10 sm:text-[16px] xl:text-[18px] xs:text-[14px]">
                 Upload your resume and let our advanced tools enhance it for
@@ -50,10 +50,10 @@ export const Hero = () => {
           </div>
           <div className=" rounded-[10px] sm:h-[50vh] md:h-[40vh] xl:h-auto">
             <Image
-              src={"/resumepic.PNG"}
-              width={588}
-              height={200}
-              className="2xl:w-[700px] sm:w-[300px] md:w-[450px]  rounded-lg xl:w-[588px] h-auto"
+              src={"/resumepic.png"}
+              width={558}
+              height={180}
+              className="2xl:w-[700px] sm:w-[300px] md:w-[400px] shadow-xl rounded-lg xl:w-[588px] h-auto"
             />
           </div>
         </div>
