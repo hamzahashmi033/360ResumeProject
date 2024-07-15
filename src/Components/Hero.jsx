@@ -50,7 +50,7 @@ export const Hero = () => {
           </div>
           <div className=" rounded-[10px] sm:h-[50vh] md:h-[40vh] xl:h-auto">
             <Image
-              src={"/resumepic.png"}
+              src={"/resumepic1.png"}
               width={558}
               height={180}
               className="2xl:w-[700px] sm:w-[300px] md:w-[400px] shadow-xl rounded-lg xl:w-[588px] h-auto"
